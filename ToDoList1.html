@@ -1,0 +1,71 @@
+<!DOCTYPE>
+<html>
+<head>
+ <meta charset = "utf-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1"/>
+ <title>Productivity Web Site</title>
+ <link rel="stylesheet" href="ToDoList1.css"/>
+ <script type="text/javascript" src="ToDoList1.js"></script>
+</head>
+
+<body>
+<br/>
+<a href="ToDoList1.html" target="_black">To Do List - </a> <a href="Gallery.html" target="_blank">Gallery - </a> <a href="AboutYou1.html" target="_black">About Me</a><br/>
+<br/>
+
+<!--<div id="mydiv" class="header">
+<h2>To Do List</h2>
+
+<div class="task-list">
+<input type="text" id = "myInput" placeholder="Add New To Do:">
+<textarea placeholder="Description:"></textarea>
+<input type="text" placeholder="Due Date:">
+<button onclick="myFunction()" id="AddButton">Add</button>
+<input type="checkbox" id="myCheck" placeholder="check here">-->
+<!--<div class="todo">
+<div class="task-date">25/08/2018</div>
+<div class="task-description">describe it</div>
+</div>-->
+
+
+Description:<br/>
+<input type="text" name="description" id="description"/><br/><br/>
+Category:<br/>
+<select id="category">
+  <option value="Home">Home</option>
+  <option value="School">School</option>
+  <option value="Work">Work</option>
+  <option value="Misc">Misc</option>
+</select>
+<br/><br/>
+
+Due:<br/>
+<input type="datetime-local" name="due" id="due"/><br/><br/>
+
+
+<input type="button" value="Add ToDo" onClick="addRow()" id="add"><br/><br/>
+
+
+<table id="myTable" border="1">
+    <tr>
+	<th onclick="sortTable(0)">Date</th>
+	<th onclick="sortTable(1)">Description</th>
+	<th onclick="sortTable(2)">Category</th>
+	<th onclick="sortTable(3)">Check</th>
+	<th onclick="sortTable(4)">Due</th>
+    </tr>
+</table>
+
+<!--<table id="myTable">
+  <tr>
+    <th>Date</th>
+    <th>Description</th>
+	<th>Category</th>
+	<th>Check</th>
+	<th>Due</th>
+  </tr>
+
+</table>-->
+
+ </body>
+ </html>

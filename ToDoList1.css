@@ -1,0 +1,66 @@
+html
+{
+	font-family: Arial;
+	text-align: center;
+}
+
+body
+{
+	background-color:#cfdef7;
+	color:black;
+	max-width: 500px;
+	margin:30px;
+	padding:30px;
+	padding-left:500px;
+}
+
+table, th, td 
+{
+	text-align:center;
+	position:relative;
+	width:100px;
+	border:1px solid black;
+	margin:30px;
+}
+
+table
+{
+	margin-left:95px;
+}
+
+table tr:nth-child(odd) td{
+	background-color: #ccc;
+}
+
+.AddButton
+{
+	cursor: pointer;
+	width:30%;
+	background: black;
+	color: white;
+	font-size:16px;
+}
+
+.task-list
+{
+	background-color:white;
+	color:black;
+	max-width:500px;
+	margin:30px;
+	padding:30px;
+}
+
+.task-list input
+{
+	width:200px;
+	margin: 2px 5px;
+}
+
+.task-list textarea
+{
+	width:240px;
+	margin: 2px 5px;
+}
+
+
+

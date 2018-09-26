@@ -1,0 +1,53 @@
+html
+{
+	font-family: Arial;
+	text-align: center;
+}
+
+body
+{
+	color:white;
+	background-image: url("AboutMeBackground.jpg");
+	margin:0;
+	padding-top:100px;
+}
+
+h1
+{
+	color: black;
+	font-family:"Times New Roman";
+}
+
+/*h2
+{
+	font:bold 1rem Arial;
+}*/
+
+h2
+{
+	color:black;
+	font-family:"Times New Roman";
+}
+
+img
+{
+	float:left;
+}
+
+p
+{
+	font-family: Arial;
+	font-size:1rem;
+	padding-left: 500px;
+}
+
+p a
+{
+	color:rgb(35,75,200);
+}
+
+#header
+{
+	font:normal bold Arial 1rem;
+	color: rgb(35,70,200);
+}
