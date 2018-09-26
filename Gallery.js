@@ -1,3 +1,4 @@
+/*Template used from W3 Schools: https://www.w3schools.com/howto/howto_js_lightbox.asp*/
 function openModal() {
   document.getElementById('myModal').style.display = "block";
 }

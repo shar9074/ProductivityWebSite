@@ -4,32 +4,38 @@ html
 	text-align: center;
 }
 
-body {
-  font-family: Verdana, sans-serif;
+body 
+{
+  font-family: Arial;
   margin: 0;
 }
 
+/*Template used from W3 Schools: https://www.w3schools.com/howto/howto_js_lightbox.asp*/
 * {
   box-sizing: border-box;
 }
 
-.row > .column {
+.row > .column 
+{
   padding: 0 8px;
 }
 
-.row:after {
+.row:after 
+{
   content: "";
   display: table;
   clear: both;
 }
 
-.column {
+.column 
+{
   float: left;
   width: 25%;
 }
 
 
-.modal {
+.modal 
+{
   display: none;
   position: fixed;
   z-index: 1;
@@ -42,7 +48,8 @@ body {
   background-color: black;
 }
 
-.modal-content {
+.modal-content 
+{
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -52,7 +59,8 @@ body {
 }
 
 
-.close {
+.close 
+{
   color: white;
   position: absolute;
   top: 10px;
@@ -62,23 +70,27 @@ body {
 }
 
 .close:hover,
-.close:focus {
+.close:focus 
+{
   color: #999;
   text-decoration: none;
   cursor: pointer;
 }
 
-.mySlides {
+.mySlides 
+{
   display: none;
 }
 
-.cursor {
+.cursor 
+{
   cursor: pointer;
 }
 
 
 .prev,
-.next {
+.next 
+{
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -94,23 +106,27 @@ body {
 }
 
 
-.next {
+.next 
+{
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-.prev {
+.prev 
+{
   left: 0;
   border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
-.next:hover {
+.next:hover 
+{
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 
-.numbertext {
+.numbertext 
+{
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -118,11 +134,13 @@ body {
   top: 0;
 }
 
-img {
+img 
+{
   margin-bottom: -4px;
 }
 
-.caption-container {
+.caption-container 
+{
   text-align: center;
   background-color: black;
   padding: 2px 16px;
