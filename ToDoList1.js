@@ -1,5 +1,4 @@
 function addRow() {
-   "use strict";
 
     var table = document.getElementById("myTable");
 	var row= document.createElement("tr");
